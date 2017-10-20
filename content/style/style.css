@@ -41,9 +41,12 @@ p {
     padding: 0 20px 50px 20px;
     font-size: 16px
 }
+.layout .logo {
+	text-align: right;
+}
 .layout .logo-red {
     position: relative;
-    float:right;
+	display: inline-block;
     margin: 16px 0;
     width: 203px;
     height: 66px;
