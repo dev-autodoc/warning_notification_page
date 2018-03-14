@@ -1,0 +1,167 @@
+@font-face {  
+  font-family:'PFDinDisplayPro-Light';
+  src: url('../fonts/PFDinDisplayPro-Light_gdi.eot');
+  src: url('../fonts/PFDinDisplayPro-Light_gdi.woff') format('woff'), url('../fonts/PFDinDisplayPro-Light_gdi.eot') format('embedded-opentype'), url('../fonts/PFDinDisplayPro-Light_gdi.ttf') format('truetype'), url('../fonts/PFDinDisplayPro-Light_gdi.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  unicode-range: U+0020-25CA; 
+}
+
+html, body { 
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+body {
+	background: #e6e6e6 url(../img/back.jpg);
+  overflow: auto;
+  font-family: 'PFDinDisplayPro-Light', Arial, sans-serif;
+  color: #292b2c;
+}
+button:focus {
+    outline: none;
+    box-shadow: 0;
+}
+ul, ol {
+  margin: 0;  
+  padding: 0;
+}
+a, a:focus, a:hover {
+    text-decoration: none;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+.layout {
+	padding: 0 20px 50px 20px;
+  font-size: 16px;
+  text-align: center;
+  .logo {
+      &-red {
+        position: relative;
+        margin: 16px 0;
+        width: 203px;
+        height: 66px;
+        background: url(../img/logo_page.png) no-repeat;
+      }
+       &-button {
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        background: url(../img/logo_min.png) no-repeat;
+        background-size: cover;
+        vertical-align: middle;
+        margin-right: 6px;
+        margin-top: -2px;
+      }
+  }
+	&-content {
+		background: rgba(243, 243, 243, 0.7);
+		padding: 17px 16px 16px;
+		p {
+			padding-bottom: 6px;
+		}
+    .padding-text {
+      display: inline-block;
+      padding-bottom: 14px;
+      font-size: 20px;
+      line-height: 18px;
+      vertical-align: middle;
+    }
+    .icon {
+      display: inline-block;
+      width: 32px;
+      height: 25px;
+      background: url(../img/sprites.png) -65px -135px no-repeat;
+    }
+    .icon-fixed {
+      display: inline-block;
+      margin: 30px 0;
+      width: 215px;
+      height: 80px;
+      background: url(../img/fixed.png) no-repeat;
+    }
+    .summ {
+      margin-top: 20px;
+    }
+		.button-red {
+			display: block;
+			margin: 32px auto;
+			border-radius: 4px;
+    	text-align: center;
+    	padding: 0 0.8em;
+    	height: 42px;
+    	line-height: 42px;
+    	background-color: #cd242f;
+    	color: #ffffff;
+    	font-size: 16px;
+    	border: 0;
+    	&:active {
+
+    	}
+		}
+    .bold {
+      font-weight: 600;
+    }
+	}
+  .footer {
+    font-size: 0;
+    .app {
+      width: 50%;
+      display: inline-block;
+      padding-top: 16px;
+      text-align: left;
+      a {
+        height: 41px;
+        width: 124px;
+        display: inline-block;
+      }
+      &-android {
+        background: url(../img/sprites.png) 0 0 no-repeat;
+        margin-right: 6px;
+      }
+      &-appstore {
+        background: url(../img/sprites.png) -128px 0 no-repeat;
+      }
+      @media screen and (max-width: 650px) {
+        width: 100%;
+        text-align: center;
+      }
+    }
+    .social {
+      width: 50%;
+      display: inline-block;
+      padding-top: 16px;
+      text-align: right;
+      .icon {
+        width: 36px;
+        height: 36px;
+        margin-right: 2px;
+        display: inline-block;
+        background: url(../img/sprites.png) no-repeat;
+        &.icon-vk {
+          background-position: 0 -83px;
+        }
+        &.icon-facebook {
+          background-position: -210px -83px;
+          margin-right: 3px;
+        }
+        &.icon-inst {
+          background-position: -84px -83px;
+        }
+        &.icon-yortube {
+          background-position: -168px -83px;
+        }
+      }
+      @media screen and (max-width: 650px) {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) { 
+    padding: 0 5px 50px 5px;
+  }
+}
