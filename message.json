@@ -3,5 +3,6 @@
  "title": "Технические работы",
  "subtitle": "Совсем скоро всё заработает",
  "shouldShow": true,
- "isCritical": true
+ "isCritical": true,
+ "versionName": "1.10.9.1.debug"
 }
