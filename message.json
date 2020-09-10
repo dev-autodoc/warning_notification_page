@@ -3,5 +3,5 @@
  "title": "Технические работы",
  "subtitle": "Совсем скоро всё заработает",
  "shouldShow": true,
- "isCritical": false
+ "isCritical": true
 }
