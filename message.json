@@ -1,8 +1,8 @@
 {
- "id": 20,
+ "id": 21,
  "title": "Технические работы",
  "subtitle": "Совсем скоро всё заработает. Попробуйте позднее.",
- "shouldShow": false,
+ "shouldShow": true,
  "isCritical": false,
  "versionCode": null
 }
