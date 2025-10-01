@@ -2,7 +2,7 @@
  "id": 33,
  "title": "Технические работы",
  "subtitle": "Совсем скоро всё заработает. Попробуйте позднее.",
- "shouldShow": false,
- "isCritical": false,
+ "shouldShow": true,
+ "isCritical": true,
  "versionCode": null
 }
