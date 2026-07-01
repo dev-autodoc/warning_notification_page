@@ -3,6 +3,6 @@
  "title": "Технические работы",
  "subtitle": "Совсем скоро всё заработает. Попробуйте позднее.",
  "shouldShow": true,
- "isCritical": true,
+ "isCritical": false,
  "versionCode": null
 }
